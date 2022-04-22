@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/quanlysinhvien.hpp
+string
+-
+list
+-
+
+../include/utils.hpp
+string
+-
+vector
+-
+
+/u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp
+quanlysinhvien.hpp
+/u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.hpp
+cassert
+-
+utils.hpp
+/u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.hpp
+fstream
+-
+
+/u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp
+utils.hpp
+/u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.hpp
+

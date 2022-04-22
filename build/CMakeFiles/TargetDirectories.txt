@@ -1,0 +1,3 @@
+/u01/Intern/chinhdv/code/QuanLySinhVien/build/CMakeFiles/rebuild_cache.dir
+/u01/Intern/chinhdv/code/QuanLySinhVien/build/CMakeFiles/edit_cache.dir
+/u01/Intern/chinhdv/code/QuanLySinhVien/build/CMakeFiles/out.dir
