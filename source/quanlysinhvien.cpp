@@ -7,7 +7,23 @@
 using namespace std;
 QuanLySinhVien::QuanLySinhVien(string file_name){
 	this->file_name = file_name;
-	ifstream f(file_name);
+};
+QuanLySinhVien::QuanLySinhVien(){
+	return;
+}
+void QuanLySinhVien::set_file(string file_name){
+	this->file_name = file_name;
+}
+
+QuanLySinhVien::~QuanLySinhVien(){
+	this->saoluu();
+};
+
+list<sinhvien> QuanLySinhVien::get_list(){
+	return this->data;
+}
+void QuanLySinhVien::read_data(){
+	ifstream f(this->file_name);
 	assert(f.is_open());
 	string line;
 	while(getline(f,line)){
@@ -20,11 +36,8 @@ QuanLySinhVien::QuanLySinhVien(string file_name){
 		this->data.push_back(person);
 	};
 
-};
 
-QuanLySinhVien::~QuanLySinhVien(){
-	this->saoluu();
-};
+}
 
 bool QuanLySinhVien::them(sinhvien p){
 	this->data.push_back(p);

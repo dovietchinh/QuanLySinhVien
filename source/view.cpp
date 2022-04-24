@@ -46,6 +46,10 @@ void View::view_table(list<sinhvien> p){
 	}
 	cout << endl;
 }
+void View::view_table(){
+	list<sinhvien> p = this->database.get_list();
+	this->view_table(p);
+}
 void View::display_command(){
 	cout << "   Danh sach thao tac :" << endl;
 	cout << " 1,In danh sach sinhvien"<< endl;
@@ -60,7 +64,8 @@ void View::display_command(){
 }
 
 View::View(string file_name){
-	this->database = file_name;
+	this->database.set_file(file_name);
+	this->database.read_data();
 	this->state = INIT;
 };
 
@@ -70,7 +75,7 @@ void View::init(){
 }
 void View::them(){
 	View::display_command();
-	View::view_table();
+View::view_table(this->database.get_list());
 	cout << "them sinh vien .... " <<endl;
 	cout << "name : ";
 	string name;

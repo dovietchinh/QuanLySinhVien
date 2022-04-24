@@ -20,7 +20,10 @@ class QuanLySinhVien{
 		string file_name;
 	public:
 		QuanLySinhVien(string file_name);
+		QuanLySinhVien();
 		~QuanLySinhVien();
+		void read_data();
+		void set_file(string file_name);
 		list<sinhvien> get_list();
 		bool them(sinhvien p);
 		bool xoa(int stt);

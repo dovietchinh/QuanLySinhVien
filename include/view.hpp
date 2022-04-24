@@ -21,10 +21,12 @@ enum STATE{
 class View{
 	private:
 		STATE state;
-		QuanLySinhVien database("/home/dovietchinh/code/QuanLySinhVien/data.txt");
+		//:QuanLySinhVien database("/home/dovietchinh/code/QuanLySinhVien/data.txt");
+		QuanLySinhVien database;
 	public:
 		static void display_command();
 		static void view_table(list<sinhvien> p);
+		void view_table();
 		View(string);
 		void init();
 		void them();
