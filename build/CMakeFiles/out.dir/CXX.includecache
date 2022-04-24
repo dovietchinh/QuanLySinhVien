@@ -18,17 +18,35 @@ string
 vector
 -
 
-/u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp
-quanlysinhvien.hpp
-/u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.hpp
-cassert
+../include/view.hpp
+
+/home/dovietchinh/code/QuanLySinhVien/include/quanlysinhvien.hpp
+string
 -
-utils.hpp
-/u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.hpp
-fstream
+list
 -
 
-/u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp
+/home/dovietchinh/code/QuanLySinhVien/source/main.cpp
 utils.hpp
-/u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.hpp
+/home/dovietchinh/code/QuanLySinhVien/source/utils.hpp
+string
+-
+vector
+-
+iostream
+-
+quanlysinhvien.hpp
+/home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.hpp
+view.hpp
+/home/dovietchinh/code/QuanLySinhVien/source/view.hpp
+
+/home/dovietchinh/code/QuanLySinhVien/source/view.cpp
+iostream
+-
+../include/quanlysinhvien.hpp
+/home/dovietchinh/code/QuanLySinhVien/include/quanlysinhvien.hpp
+list
+-
+view.hpp
+/home/dovietchinh/code/QuanLySinhVien/source/view.hpp
 

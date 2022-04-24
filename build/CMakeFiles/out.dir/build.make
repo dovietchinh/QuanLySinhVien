@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /u01/Intern/chinhdv/code/QuanLySinhVien/build
+CMAKE_SOURCE_DIR = /home/dovietchinh/code/QuanLySinhVien/build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /u01/Intern/chinhdv/code/QuanLySinhVien/build
+CMAKE_BINARY_DIR = /home/dovietchinh/code/QuanLySinhVien/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/out.dir/depend.make
@@ -57,60 +57,75 @@ include CMakeFiles/out.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/out.dir/flags.make
 
-CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.o: CMakeFiles/out.dir/flags.make
-CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.o: /u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/u01/Intern/chinhdv/code/QuanLySinhVien/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.o -c /u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp
+CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/main.cpp.o: CMakeFiles/out.dir/flags.make
+CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/main.cpp.o: /home/dovietchinh/code/QuanLySinhVien/source/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dovietchinh/code/QuanLySinhVien/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/main.cpp.o -c /home/dovietchinh/code/QuanLySinhVien/source/main.cpp
 
-CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp > CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.i
+CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dovietchinh/code/QuanLySinhVien/source/main.cpp > CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/main.cpp.i
 
-CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp -o CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.s
+CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dovietchinh/code/QuanLySinhVien/source/main.cpp -o CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/main.cpp.s
 
-CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.o: CMakeFiles/out.dir/flags.make
-CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.o: /u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/u01/Intern/chinhdv/code/QuanLySinhVien/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.o -c /u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp
+CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.o: CMakeFiles/out.dir/flags.make
+CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.o: /home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dovietchinh/code/QuanLySinhVien/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.o -c /home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp
 
-CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp > CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.i
+CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp > CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.i
 
-CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp -o CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.s
+CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp -o CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.s
 
-CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.o: CMakeFiles/out.dir/flags.make
-CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.o: /u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/u01/Intern/chinhdv/code/QuanLySinhVien/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.o -c /u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp
+CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.o: CMakeFiles/out.dir/flags.make
+CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.o: /home/dovietchinh/code/QuanLySinhVien/source/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dovietchinh/code/QuanLySinhVien/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.o -c /home/dovietchinh/code/QuanLySinhVien/source/utils.cpp
 
-CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp > CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.i
+CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dovietchinh/code/QuanLySinhVien/source/utils.cpp > CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.i
 
-CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp -o CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.s
+CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dovietchinh/code/QuanLySinhVien/source/utils.cpp -o CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.s
+
+CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/view.cpp.o: CMakeFiles/out.dir/flags.make
+CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/view.cpp.o: /home/dovietchinh/code/QuanLySinhVien/source/view.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dovietchinh/code/QuanLySinhVien/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/view.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/view.cpp.o -c /home/dovietchinh/code/QuanLySinhVien/source/view.cpp
+
+CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/view.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/view.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dovietchinh/code/QuanLySinhVien/source/view.cpp > CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/view.cpp.i
+
+CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/view.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/view.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dovietchinh/code/QuanLySinhVien/source/view.cpp -o CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/view.cpp.s
 
 # Object files for target out
 out_OBJECTS = \
-"CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.o" \
-"CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.o" \
-"CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.o"
+"CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/main.cpp.o" \
+"CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.o" \
+"CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.o" \
+"CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/view.cpp.o"
 
 # External object files for target out
 out_EXTERNAL_OBJECTS =
 
-bin/out: CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.o
-bin/out: CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.o
-bin/out: CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.o
+bin/out: CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/main.cpp.o
+bin/out: CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.o
+bin/out: CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.o
+bin/out: CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/view.cpp.o
 bin/out: CMakeFiles/out.dir/build.make
 bin/out: CMakeFiles/out.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/u01/Intern/chinhdv/code/QuanLySinhVien/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable bin/out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dovietchinh/code/QuanLySinhVien/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable bin/out"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/out.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +138,6 @@ CMakeFiles/out.dir/clean:
 .PHONY : CMakeFiles/out.dir/clean
 
 CMakeFiles/out.dir/depend:
-	cd /u01/Intern/chinhdv/code/QuanLySinhVien/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /u01/Intern/chinhdv/code/QuanLySinhVien/build /u01/Intern/chinhdv/code/QuanLySinhVien/build /u01/Intern/chinhdv/code/QuanLySinhVien/build /u01/Intern/chinhdv/code/QuanLySinhVien/build /u01/Intern/chinhdv/code/QuanLySinhVien/build/CMakeFiles/out.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dovietchinh/code/QuanLySinhVien/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dovietchinh/code/QuanLySinhVien/build /home/dovietchinh/code/QuanLySinhVien/build /home/dovietchinh/code/QuanLySinhVien/build /home/dovietchinh/code/QuanLySinhVien/build /home/dovietchinh/code/QuanLySinhVien/build/CMakeFiles/out.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/out.dir/depend
 

@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/u01/Intern/chinhdv/code/QuanLySinhVien/build/../include 
+CXX_INCLUDES = -I/home/dovietchinh/code/QuanLySinhVien/build/../include 
 

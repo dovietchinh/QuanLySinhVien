@@ -4,9 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp" "/u01/Intern/chinhdv/code/QuanLySinhVien/build/CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.o"
-  "/u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp" "/u01/Intern/chinhdv/code/QuanLySinhVien/build/CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.o"
-  "/u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp" "/u01/Intern/chinhdv/code/QuanLySinhVien/build/CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.o"
+  "/home/dovietchinh/code/QuanLySinhVien/source/main.cpp" "/home/dovietchinh/code/QuanLySinhVien/build/CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/main.cpp.o"
+  "/home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp" "/home/dovietchinh/code/QuanLySinhVien/build/CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.o"
+  "/home/dovietchinh/code/QuanLySinhVien/source/utils.cpp" "/home/dovietchinh/code/QuanLySinhVien/build/CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.o"
+  "/home/dovietchinh/code/QuanLySinhVien/source/view.cpp" "/home/dovietchinh/code/QuanLySinhVien/build/CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/view.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

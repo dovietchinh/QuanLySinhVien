@@ -1,17 +1,15 @@
-#include "utils.hpp"
+#include "utils.hpp" 
 #include <string>
 #include <vector>
 #include <iostream>
-
+#include "quanlysinhvien.hpp"
+#include "view.hpp"
 using namespace std;
 
 int main(int argc, char** argv){
-	string temp=argv[1];
-	vector<string> x = split(temp,"123");
-	string abc = replace(argv[2],"2","3");
-	for(auto i:x) cout << i << " ";
-	cout << endl;
-	cout <<"abc: "<<abc<<endl;
-	return 1;
+	string file_name = "/home/dovietchinh/code/QuanLySinhVien/data.txt";
+	View myview(file_name);
 
+
+	return EXIT_SUCCESS;
 }

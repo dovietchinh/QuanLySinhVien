@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /u01/Intern/chinhdv/code/QuanLySinhVien/build
+CMAKE_SOURCE_DIR = /home/dovietchinh/code/QuanLySinhVien/build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /u01/Intern/chinhdv/code/QuanLySinhVien/build
+CMAKE_BINARY_DIR = /home/dovietchinh/code/QuanLySinhVien/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /u01/Intern/chinhdv/code/QuanLySinhVien/build/CMakeFiles /u01/Intern/chinhdv/code/QuanLySinhVien/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dovietchinh/code/QuanLySinhVien/build/CMakeFiles /home/dovietchinh/code/QuanLySinhVien/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /u01/Intern/chinhdv/code/QuanLySinhVien/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dovietchinh/code/QuanLySinhVien/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,86 +123,113 @@ out/fast:
 	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/build
 .PHONY : out/fast
 
-u01/Intern/chinhdv/code/QuanLySinhVien/source/main.o: u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.o
+home/dovietchinh/code/QuanLySinhVien/source/main.o: home/dovietchinh/code/QuanLySinhVien/source/main.cpp.o
 
-.PHONY : u01/Intern/chinhdv/code/QuanLySinhVien/source/main.o
-
-# target to build an object file
-u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.o:
-	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.o
-.PHONY : u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.o
-
-u01/Intern/chinhdv/code/QuanLySinhVien/source/main.i: u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.i
-
-.PHONY : u01/Intern/chinhdv/code/QuanLySinhVien/source/main.i
-
-# target to preprocess a source file
-u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.i:
-	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.i
-.PHONY : u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.i
-
-u01/Intern/chinhdv/code/QuanLySinhVien/source/main.s: u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.s
-
-.PHONY : u01/Intern/chinhdv/code/QuanLySinhVien/source/main.s
-
-# target to generate assembly for a file
-u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.s:
-	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.s
-.PHONY : u01/Intern/chinhdv/code/QuanLySinhVien/source/main.cpp.s
-
-u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.o: u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.o
-
-.PHONY : u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.o
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/main.o
 
 # target to build an object file
-u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.o:
-	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.o
-.PHONY : u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.o
+home/dovietchinh/code/QuanLySinhVien/source/main.cpp.o:
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/main.cpp.o
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/main.cpp.o
 
-u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.i: u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.i
+home/dovietchinh/code/QuanLySinhVien/source/main.i: home/dovietchinh/code/QuanLySinhVien/source/main.cpp.i
 
-.PHONY : u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.i
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/main.i
 
 # target to preprocess a source file
-u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.i:
-	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.i
-.PHONY : u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.i
+home/dovietchinh/code/QuanLySinhVien/source/main.cpp.i:
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/main.cpp.i
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/main.cpp.i
 
-u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.s: u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.s
+home/dovietchinh/code/QuanLySinhVien/source/main.s: home/dovietchinh/code/QuanLySinhVien/source/main.cpp.s
 
-.PHONY : u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.s
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/main.s
 
 # target to generate assembly for a file
-u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.s:
-	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.s
-.PHONY : u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.cpp.s
+home/dovietchinh/code/QuanLySinhVien/source/main.cpp.s:
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/main.cpp.s
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/main.cpp.s
 
-u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.o: u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.o
+home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.o: home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.o
 
-.PHONY : u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.o
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.o
 
 # target to build an object file
-u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.o:
-	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.o
-.PHONY : u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.o
+home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.o:
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.o
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.o
 
-u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.i: u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.i
+home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.i: home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.i
 
-.PHONY : u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.i
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.i
 
 # target to preprocess a source file
-u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.i:
-	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.i
-.PHONY : u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.i
+home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.i:
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.i
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.i
 
-u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.s: u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.s
+home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.s: home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.s
 
-.PHONY : u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.s
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.s
 
 # target to generate assembly for a file
-u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.s:
-	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.s
-.PHONY : u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.cpp.s
+home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.s:
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.s
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.s
+
+home/dovietchinh/code/QuanLySinhVien/source/utils.o: home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.o
+
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/utils.o
+
+# target to build an object file
+home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.o:
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.o
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.o
+
+home/dovietchinh/code/QuanLySinhVien/source/utils.i: home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.i
+
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/utils.i
+
+# target to preprocess a source file
+home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.i:
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.i
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.i
+
+home/dovietchinh/code/QuanLySinhVien/source/utils.s: home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.s
+
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/utils.s
+
+# target to generate assembly for a file
+home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.s:
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.s
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.s
+
+home/dovietchinh/code/QuanLySinhVien/source/view.o: home/dovietchinh/code/QuanLySinhVien/source/view.cpp.o
+
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/view.o
+
+# target to build an object file
+home/dovietchinh/code/QuanLySinhVien/source/view.cpp.o:
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/view.cpp.o
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/view.cpp.o
+
+home/dovietchinh/code/QuanLySinhVien/source/view.i: home/dovietchinh/code/QuanLySinhVien/source/view.cpp.i
+
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/view.i
+
+# target to preprocess a source file
+home/dovietchinh/code/QuanLySinhVien/source/view.cpp.i:
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/view.cpp.i
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/view.cpp.i
+
+home/dovietchinh/code/QuanLySinhVien/source/view.s: home/dovietchinh/code/QuanLySinhVien/source/view.cpp.s
+
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/view.s
+
+# target to generate assembly for a file
+home/dovietchinh/code/QuanLySinhVien/source/view.cpp.s:
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/view.cpp.s
+.PHONY : home/dovietchinh/code/QuanLySinhVien/source/view.cpp.s
 
 # Help Target
 help:
@@ -213,15 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... out"
-	@echo "... u01/Intern/chinhdv/code/QuanLySinhVien/source/main.o"
-	@echo "... u01/Intern/chinhdv/code/QuanLySinhVien/source/main.i"
-	@echo "... u01/Intern/chinhdv/code/QuanLySinhVien/source/main.s"
-	@echo "... u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.o"
-	@echo "... u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.i"
-	@echo "... u01/Intern/chinhdv/code/QuanLySinhVien/source/quanlysinhvien.s"
-	@echo "... u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.o"
-	@echo "... u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.i"
-	@echo "... u01/Intern/chinhdv/code/QuanLySinhVien/source/utils.s"
+	@echo "... home/dovietchinh/code/QuanLySinhVien/source/main.o"
+	@echo "... home/dovietchinh/code/QuanLySinhVien/source/main.i"
+	@echo "... home/dovietchinh/code/QuanLySinhVien/source/main.s"
+	@echo "... home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.o"
+	@echo "... home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.i"
+	@echo "... home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.s"
+	@echo "... home/dovietchinh/code/QuanLySinhVien/source/utils.o"
+	@echo "... home/dovietchinh/code/QuanLySinhVien/source/utils.i"
+	@echo "... home/dovietchinh/code/QuanLySinhVien/source/utils.s"
+	@echo "... home/dovietchinh/code/QuanLySinhVien/source/view.o"
+	@echo "... home/dovietchinh/code/QuanLySinhVien/source/view.i"
+	@echo "... home/dovietchinh/code/QuanLySinhVien/source/view.s"
 .PHONY : help
 
 
