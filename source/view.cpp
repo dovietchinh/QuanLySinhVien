@@ -3,7 +3,8 @@
 #include "../include/quanlysinhvien.hpp"
 #include <list>
 #include "view.hpp"
-
+#include <stdlib.h>
+#define DEBUG
 void View::view_table(list<sinhvien> p){
 	int max_length=0;
 	for(auto x:p){
@@ -70,12 +71,38 @@ View::View(string file_name){
 };
 
 void View::init(){
+	#ifdef DEBUG
+		cout << "View::init called" << endl;
+	#endif
+	system("clear");
+	View::display_command();
+	cout << "Command :" ;
+//	View::view_table(this->database.get_list());
+	this->state = STATE(getchar());
+	cout << "this state is : " << this->state << endl; 
+	getchar();
+}
+
+void View::in(){
+	#ifdef DEBUG
+		cout << "View::in called" << endl; 
+	#endif
+	system("clear");
+	View::display_command();
+	View::view_table();
+	cout << "press any keys...." <<endl;
+	//getchar();
+	getchar();
+	this->state = INIT;
+}
+
+void View::them(){
+	#ifdef DEBUG
+		cout << "View::them called" << endl;
+	#endif
+	system("clear");
 	View::display_command();
 	View::view_table(this->database.get_list());
-}
-void View::them(){
-	View::display_command();
-View::view_table(this->database.get_list());
 	cout << "them sinh vien .... " <<endl;
 	cout << "name : ";
 	string name;
@@ -88,10 +115,155 @@ View::view_table(this->database.get_list());
 	cin >> score;
 	sinhvien temp(name,age,score);
 	this->database.them(temp);
+	cout << endl << "them thanh cong...." << endl;
+	cout << "press any keys...." << endl;
+	//system("read")
+	fflush(stdin);
+	getchar();
+	
+	this->state = INIT;
+}
+
+void View::sua(){
+	system("clear");
+	View::display_command();
+	View::view_table();
+	cout << "sua sinh vien stt: ";
+	int stt;
+	cin >> stt;
+	cout << endl << "name : ";
+	string name;
+	cin >> name;
+	cout << endl << "age: ";
+	int age;
+	cin >> age;
+	cout << endl << "score: ";
+	float score;
+	cin >> score;
+	sinhvien temp(name,age,score);
+	this->database.sua(stt,temp);
+	cout << endl << "sua thanh cong ...." << endl;
+	cout << "press any keys...." << endl;
+	getchar();
+	this->state = INIT;
+};
+
+void View::xoa(){
+	system("clear");
+	View::display_command();
+	View::view_table();
+	cout << "xoa sinh vien stt: ";
+	int stt;
+	cin >> stt;
+	this->database.xoa(stt);
+	cout << endl << "xoa thanh cong ..." << endl;
+	cout << "press any keys...." <<endl; 
+	getchar();
+	this->state = INIT;
+};
+
+void View::timkiem(){
+	system("clear");
+	View::display_command();
+	string search;
+	cout << "search term : ";
+	cin >> search;
+	list<sinhvien> x = this->database.timkiem(search);
+	View::view_table(x);
+	cout << endl << "press any keys...." << endl;
+	fflush(stdin);
+	getchar();
+	getchar();
+	this->state = INIT;
+}
+
+void View::sapxep(){
+	system("clear");
+	View::display_command();
+	this->database.sapxep();
+	cout << "sap xep thanh cong...." << endl;
+	cout << "press any keys...." << endl;
+	getchar();
+	this->state = INIT;
+};
+void View::thongke(){
+	system("clear");
+	View::display_command();
+	cout << "thong ke thanh cong ...." << endl;
+	cout << "press any keys ..." << endl;
+	getchar();
+	this->state = INIT;
+};
+
+void View::saoluu(){
+	system("clear");
+	View::display_command();
+	this->database.saoluu();
+	cout << "saoluu thanh cong ..." << endl;
+	cout << "press any keys ..." << endl;
+	getchar();
+	this->state = INIT;
+};
+
+void View::thoat(){
+	this->database.saoluu();
 }
 
 
-
+void View::loop(){
+	bool exec = true;
+	while(exec){
+		switch(this->state){
+			case INIT:{
+				this->init();
+				break;
+			}
+			case IN:{
+				this->in();
+				break;
+			}	
+			case THEM:{		  
+				this->them();
+				break;
+			}
+			case SUA:{
+				this->sua();
+				break;
+			}
+			case XOA:{
+				this->xoa();
+				break;
+			}
+			case TIMKIEM:{
+				this->timkiem();
+				break;
+   			}
+			case SAPXEP:{
+				this->sapxep();
+				break;
+			}	
+			case THONGKE:{
+				this->thongke();
+				break;
+			}
+			case SAOLUU:{
+				this->saoluu();
+				break;
+			}
+			case THOAT:{
+				this->thoat();
+				exec = false;
+				break;
+			}
+			default:{
+				cout << "this->state: " << (this->state) << endl;
+				//getchar();
+				this->state = INIT;
+				break;
+			}
+		}
+	}
+}
 
 
 

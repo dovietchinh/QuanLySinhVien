@@ -1,16 +1,10 @@
 #ifndef __VIEW__H__
 #define __VIEW__H__
 enum STATE{
-	INIT,
+	INIT='0',
+	IN,
 	THEM,
-		THEM_NAME,
-		THEM_AGE,
-		THEM_SCORE,
 	SUA,
-		SUA_STT,
-		SUA_NAME,
-		SUA_AGE,
-		SUA_SCORE,
 	XOA,
 	TIMKIEM,
 	SAPXEP,
@@ -29,20 +23,19 @@ class View{
 		void view_table();
 		View(string);
 		void init();
+		void in();
 		void them();
-		void them_name();
-		void them_age();
-		void them_score();
+		//void them_name();
+		//void them_age();
+		//void them_score();
 		void sua();
-		void sua_stt();
-		void sua_name();
-		void sua_age();
-		void sua_score();
 		void xoa();
 		void timkiem();
 		void sapxep();
 		void thongke();
-		void sauluu();
+		void saoluu();
 		void display();
+		void loop();
+		void thoat();
 };
 #endif

@@ -55,6 +55,7 @@ bool QuanLySinhVien::xoa(int stt){
 
 bool QuanLySinhVien::sua(int stt, sinhvien p){
 	if(stt>this->data.size()) return false;
+	if(stt<1) return false;
 	stt--;
 	list<sinhvien>::iterator it = this->data.begin();
 	std::advance(it,stt);

@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/main.cpp.o CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/quanlysinhvien.cpp.o CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/utils.cpp.o CMakeFiles/out.dir/home/dovietchinh/code/QuanLySinhVien/source/view.cpp.o  -o bin/out 

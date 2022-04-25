@@ -1,3 +1,0 @@
-/home/dovietchinh/code/QuanLySinhVien/build/CMakeFiles/rebuild_cache.dir
-/home/dovietchinh/code/QuanLySinhVien/build/CMakeFiles/edit_cache.dir
-/home/dovietchinh/code/QuanLySinhVien/build/CMakeFiles/out.dir
